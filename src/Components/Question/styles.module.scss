@@ -1,0 +1,39 @@
+.form{
+    position: relative;
+    height: auto;  
+    overflow:visible;
+   
+    img{
+        
+        
+        width: 20vw;  
+        height: auto;  
+        margin-left: 2vw;
+        margin-top:-30vh;
+        float:left;
+
+    }
+    
+}
+
+.option{
+   
+    margin-right: 5vw;
+    margin-top:15vh;
+    
+   
+    label {
+        
+        font-size: 2vw;   
+        max-width: 72vw;
+        display: inline-block;
+        word-wrap: break-word;
+    }
+
+    input[type=radio] {
+        width: 2vw;
+        height: 3vh; /* Chrome, Safari, Opera */
+    }
+    
+
+}

@@ -1,0 +1,50 @@
+.form{
+    position: relative;
+    
+}
+
+.form button{
+    position: absolute;
+    $width:10vw;
+    $height:calc($width*0.4);
+    font-size: 2vw;
+    position:relative;
+    background-color: black;
+    color: white;
+    border:none;
+    width:$width;
+    height:$height;
+    top:15vh;
+    
+
+}
+
+.form #next{
+    float:left;
+    left:20vw;
+    
+}
+.form #back{
+    float:right;
+    right:20vw;
+    
+}
+.option{
+    position: relative;
+    right: 10vw;
+    top:15vh;
+    
+   
+    label {
+        
+        
+    }
+
+    input[type=radio] {
+        width: 2vw;
+        height: 3vh; /* Chrome, Safari, Opera */
+        
+    }
+    
+
+}
