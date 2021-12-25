@@ -138,7 +138,7 @@ export class Questions extends React.Component {
         (
             ()=>{
                 this.GetQuestions().then(
-                    (data)=>{this.setState({...this.state,questions:data})}
+                    (data)=>{this.setState({...this.state,questions:data})} //asdasd
                         )
             }
         )()
